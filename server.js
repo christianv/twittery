@@ -27,7 +27,7 @@ var parseTweets = function(body) {
       text: text
     });
   });
-
+  tweets.pop();
   return tweets;
 };
 
